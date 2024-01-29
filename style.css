@@ -1,0 +1,71 @@
+body{
+    width: 90%;
+    background: rgb(122,43,194);
+    /* background-color: rgb(214, 250, 205); */
+}
+.maindiv{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    position: absolute;
+    left: 100px;
+}
+.main{
+    width: 400px;
+    /* height: 450px; */
+    background-color: white;
+}
+.main_heading {
+    text-align: center;
+}
+.inputs {
+    margin-bottom: 15px;
+    position: relative;
+    left: 30px;
+}
+h5{
+    margin-top: -11px;
+    color: #cccccc;
+}
+input[type="text"] {
+    width: 70%;
+    height: 27px;
+}
+button.btn {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(50 189 252);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+span#log_in {
+    color: #60bbe4;
+    cursor: pointer;
+}
+
+/* .tooltip {
+    width: 250px;
+    background-color: #fbfbfb;
+    box-shadow: 1px 2px 2px 1px solid gray;
+    /* height: 250px; */
+/* } */ 
+
+/* --------------------------------------tooltip---------------- */
+
+.tooltip{
+    display: none;
+    width: 250px;
+    background-color: #fffafa;
+    position: absolute;
+    left: 68.2%;
+    margin-top: -70px;
+    border-radius: 5px;
+}
+
+
+.invalid {
+    color: red;
+  }
